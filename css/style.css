@@ -1,5 +1,6 @@
 body {
   background-image: url(../img/bg2_1920x1200.jpg);
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -25,6 +26,15 @@ main {
 
 h2 {
   color: white;
+}
+
+#searchbar {
+  width: 96%;
+  border-radius: 15px;
+}
+
+#button {
+  border-radius: 15px;
 }
 
 #unread-counter {
