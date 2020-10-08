@@ -10,8 +10,8 @@
 
     <!-- Logo Gmail -->
     <header>
-      <img src="img/gmail_logo.png" alt="Logo di Gmail">
-      <div id="title">Gmail</div>
+      <img class="v-middle" src="img/gmail_logo.png" alt="Logo di Gmail">
+      <h1 class="title v-middle">GMail</h1>
     </header>
 
     <!-- Central Content -->
@@ -19,8 +19,10 @@
 
       <!-- Searchbar & Unread -->
       <section id="first">
-        <input id="searchbar" type="text" name="Searchbar" value="" placeholder="Search">
-        <button id="button" type="button" name="Vai">GO</button>
+        <form class="" action="index.html" method="get">
+          <input id="searchbar" type="search" name="Searchbar" value="" placeholder="Search">
+          <button id="button" type="submit" name="Vai">GO</button>
+        </form>
         <h2>You have <span id="unread-counter">44</span> unread</h2>
       </section>
 

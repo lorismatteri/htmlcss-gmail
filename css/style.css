@@ -1,25 +1,25 @@
 body {
   background-image: url(../img/bg2_1920x1200.jpg);
   font-family: 'Roboto', sans-serif;
+  margin: auto;
+  width: 65%;
 }
 
 header {
-  margin: auto;
-  width: 65%;
   border-bottom: 2px solid white;
-  padding-bottom: 15px;
 }
 
-#title {
+.v-middle {
+  vertical-align: middle;
   display: inline-block;
   color: white;
-  font-size: 50px;
-  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 main {
-  margin: auto;
-  width: 65%;
   border-bottom: 2px solid white;
   padding-top: 10px;
 }
@@ -29,7 +29,7 @@ h2 {
 }
 
 #searchbar {
-  width: 96%;
+  width: 40%;
   border-radius: 15px;
 }
 
@@ -39,9 +39,9 @@ h2 {
 
 #unread-counter {
   color: #ff3300;
-  border-radius: 20px;
+  border-radius: 50%;
   background-color: #ffff00;
-  padding: 5px;
+  padding: 10px;
 }
 
 #first{
@@ -74,15 +74,13 @@ h2 {
 }
 
 footer {
-  margin: auto;
-  width: 65%;
   color: white;
   padding-top: 15px;
   text-align: center;
 }
 
 #gmail_credits {
-  font-size: 35px;
+  font-size: 32px;
 }
 
 #other_credits {
